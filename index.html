@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-Formed Drivers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="masthead">
+        <img src="images/logo.png" alt="logo">
+        <h1 class="site-title centeredText">Car Finders Inc.</h1>  
+    </header>
+    <main class="main-area">
+        <form id="carForm" action="#" method="post">
+            <label for="manufacturer">Select Manufacturer
+
+                <select id="manufacturer" name="manufacturer" size="1" style="width: 100px">
+        
+                  <option value="subaru">Subaru</option>
+        
+                  <option value="lancia">Lancia</option>
+        
+                  <option value="citroen">Citroen</option>
+        
+                  <option value="toyota">Toyota</option>
+        
+                  <option value="ford">Ford</option>
+        
+                  <option value="Volkswagen">Volkswagen</option>
+        
+                </select>
+        
+              </label>
+
+              <fieldset>
+
+                <legend>Style your car</legend>
+        
+                <label for="carColour"
+        
+                  >Pick Your Colour
+        
+                  <input type="color" id="carColour" name="carColour" />
+        
+                </label><br/><br/>
+
+                    <input
+            
+                      type="checkbox"
+            
+                      id="4Wheel"
+            
+                      name="driveOptions"
+            
+                      value="4Wheel"
+            
+                    /><label for="4Wheel">4-Wheel Drive</label><br/>
+
+                <input
+        
+                    type="checkbox"
+        
+                    id="frontWheel"
+        
+                    name="driveOptions"
+        
+                    value="frontWheel"
+        
+                /><label for="frontWheel">Front-Wheel Drive</label><br/>
+    
+                    <input
+            
+                        type="checkbox"
+            
+                        id="sportMode"
+            
+                        name="driveOptions"
+            
+                        value="sportMode"
+            
+                    /><label for="sportMode">Sport Mode</label><br/><br/>
+    
+                    <label for="license">License
+                        <input type="text" 
+                            id="license" 
+                            name = "license" 
+                            placeholder="xxxxxxx"
+                            size="6"
+                            minlength="2"
+                            maxlength="7"
+                        />
+                    </label><br/><br/>
+
+              </fieldset><br/>
+
+                <label for="comments">
+
+                    Your comments and notes
+
+                    <textarea
+
+                    id="comments"
+
+                    name="comments"
+
+                    placeholder="comments"
+
+                    >
+
+                    </textarea>
+
+                </label><br/><br/>
+
+                <input type="submit" value="Submit">
+        </form>
+
+
+    </main>
+</body>
+</html>
